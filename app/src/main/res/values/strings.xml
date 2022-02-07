@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Analytic</string>
+    <string name="default_web_client_idd">253760537396-g16d9h6m016rlrl02fuptpjrg22rhik6.apps.googleusercontent.com</string>
+    <string name="pref_file">com.example.analytics.PREFERENCE_FILE_KEY</string>
+    <string name="facebook_app_id">3266682603559710</string>
+    <string name="fb_login_protocol_scheme">fb3266682603559710</string>
+
+</resources>

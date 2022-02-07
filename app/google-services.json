@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "253760537396",
+    "project_id": "fir-curso-2022",
+    "storage_bucket": "fir-curso-2022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253760537396:android:c727e225e30b72b5321b61",
+        "android_client_info": {
+          "package_name": "com.example.analitics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253760537396-g16d9h6m016rlrl02fuptpjrg22rhik6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1OfJdOgl9v-YL3LH4qaZz8ndSGZId5Rg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253760537396-g16d9h6m016rlrl02fuptpjrg22rhik6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
