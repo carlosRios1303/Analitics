@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.ContactsContract
 import com.example.analitics.databinding.ActivityHomeBinding
+import com.facebook.login.LoginManager
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.oAuthProvider
 
@@ -54,6 +55,10 @@ class HomeActivity : AppCompatActivity() {
             val prefs: SharedPreferences.Editor = getSharedPreferences(getString(R.string.pref_file), Context.MODE_PRIVATE).edit()
             prefs.clear()
             prefs.apply()
+
+            if (provider == ProviderType.FACEEBOOK.name){
+                LoginManager.getInstance().logOut()
+            }
 
             FirebaseAuth.getInstance().signOut()
             onBackPressed()
